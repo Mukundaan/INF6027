@@ -29,12 +29,12 @@ This repository contains the Spotify Tracks analysis project, conducted as part 
 - **Popularity Indicators**: Energy and danceability were identified as critical factors influencing popularity.
 
 ## Project Structure
-- `data`: Contains the cleaned dataset used for analysis.
-- `scripts`: Includes R scripts for:
+- `Cleaned_Dataset.csv`: Contains the cleaned dataset used for analysis.
+  scripts: 
   - `data_cleaning.R`: Preprocessing and cleaning the dataset.
   - `EDA.R`: Performing exploratory data analysis.
   - `visualizations.R`: Generating plots for the research questions.
-- `results`: Stores generated visualizations and summary tables.
+  output:  visualizations and summary tables.
 
 ### Prerequisites
 - Install R and RStudio.
@@ -44,8 +44,8 @@ This repository contains the Spotify Tracks analysis project, conducted as part 
 
 1. **Clone the Repository:**
     ```bash
-    git clone https://github.com/Mukundaan/YourRepository.git
-    cd YourRepository
+    git clone https://github.com/Mukundaan/https://github.com/Mukundaan/INF6027.git
+    cd INF6027
     ```
 
 2. **Install Required R Packages:** Open RStudio and run:
