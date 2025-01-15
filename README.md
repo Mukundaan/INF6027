@@ -36,9 +36,28 @@ This repository contains the Spotify Tracks analysis project, conducted as part 
   - `visualizations.R`: Generating plots for the research questions.
 - `results`: Stores generated visualizations and summary tables.
 
-## Instructions to Run the Code
+### Prerequisites
+- Install R and RStudio.
+- Install the following R packages: `dplyr`, `stringr`, `ggplot2`, and `tidyr`.
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/Mukundaan/YourRepository.git
-cd YourRepository
+### Instructions to run the code
+
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/Mukundaan/YourRepository.git
+    cd YourRepository
+    ```
+
+2. **Install Required R Packages:** Open RStudio and run:
+    ```R
+    install.packages(c("dplyr", "stringr", "ggplot2", "tidyr"))
+    ```
+
+3. **Run the Preprocessing Script:**
+    - Open `data_cleaning.R` in RStudio.
+    - Run the script to clean the dataset and save the output as `Cleaned_Dataset.csv`.
+
+4. **Run the Analysis and Visualization Scripts:**
+    - Open `EDA.R` in RStudio and run it to calculate summary statistics and perform ANOVA tests.
+    - Open `visualizations.R` to generate boxplots, scatter plots, and the correlation heatmap.
+
