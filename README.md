@@ -61,3 +61,12 @@ This repository contains the Spotify Tracks analysis project, conducted as part 
     - Open `EDA.R` in RStudio and run it to calculate summary statistics and perform ANOVA tests.
     - Open `visualizations.R` to generate boxplots, scatter plots, and the correlation heatmap.
 
+## Key Outputs
+
+1. **Visualizations:**
+   - Boxplots for valence, energy, and danceability across popularity groups.
+   - Scatter plots for energy vs. danceability by popularity groups.
+   - Summary tables showcasing descriptive statistics.
+
+2. **Summary Table:**
+   - Provides mean and median values for valence, energy, and danceability across popularity groups.
