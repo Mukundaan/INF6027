@@ -20,6 +20,5 @@ summary_table <- data %>%
     mean_energy = mean(energy, na.rm = TRUE),
     mean_danceability = mean(danceability, na.rm = TRUE)
   )
-
 # Print the summary table
 print(summary_table)
